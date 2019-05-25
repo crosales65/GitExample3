@@ -21,6 +21,9 @@ class ViewController: UIViewController {
     
     private var tempVar = true
 
+    let fechaActual = Date()
+    let fechaFormato = DateFormatter()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
